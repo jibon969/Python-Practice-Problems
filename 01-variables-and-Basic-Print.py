@@ -25,7 +25,9 @@ Example : Hello Mr Jibon Ahmed
 title = "Mr"
 first = "Jibon"
 last = "Ahmed"
-print("Hello " +title + " "  + first + " " +last)
+print("Hello ", end=" ")
+print(first, end=" ")
+print(last, end=" ")
 print("\n")
 
 """
@@ -54,5 +56,11 @@ b = "chicken\n"
 print(b*4)
 print("\n")
 
+"""
+6. There are three "chickens" in the house -  with the quotes around the world chickens
+Example : There are three "chickens" in the house
+"""
+
+print("here are three \"chickens\" in the house")
 
 

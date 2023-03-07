@@ -6,3 +6,9 @@ import calendar
 
 x = calendar.calendar(2000, 1)
 print(x)
+
+
+print("\n")
+y = calendar.month(2023, 2)
+print(y)
+

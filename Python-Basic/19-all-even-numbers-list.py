@@ -6,7 +6,8 @@ numbers = [
 ]
 
 for num in numbers:
-    if num % 2 == 0:
-        if num < 237:
-            break
+    if num == 237:
+        print("Stop Program")
+        break
+    elif num % 2 == 0:
         print("Even number", num)

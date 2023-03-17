@@ -1,0 +1,5 @@
+print("Find out your Age Calculation : \n")
+user_input = input("Enter your Age : ")
+Age = 2018 - int(user_input)
+print("You Are " + str(Age) + " years old")
+print('\n')

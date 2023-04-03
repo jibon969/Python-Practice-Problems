@@ -14,3 +14,11 @@ result = (P*R*T)/100
 print(result)
 
 
+def simple_interest(p, r, t):
+
+    interest = (p*r*t)/100
+    return interest
+
+
+output = simple_interest(8, 6, 8)
+print("The Simple Interest is ", output)

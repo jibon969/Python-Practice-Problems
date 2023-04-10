@@ -38,6 +38,6 @@ print(x)
 # maximum of two numbers
 a = 12
 b = -4
-x =[a,b]
+x =[a, b]
 x.sort()
 print(x[1])

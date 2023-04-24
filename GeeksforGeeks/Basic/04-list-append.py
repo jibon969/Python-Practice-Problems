@@ -1,4 +1,6 @@
-
+"""
+How to add empty list value
+"""
 a = []
 # print("List ", a)
 for i in range(1, 10):

@@ -1,3 +1,8 @@
+
+"""
+Maximum Number
+"""
+
 a = -2
 b = -4
 
@@ -13,6 +18,7 @@ def maximum(a, b):
     else:
         return b
 
+
 output = maximum(-50, -34)
 print(output)
 
@@ -24,8 +30,8 @@ print(a if a >= b else b)
 
 
 # Using lambda function
-maximum = lambda a, b: a if a >= b else b
-print(maximum(3, 8))
+number = lambda a, b: a if a >= b else b
+print(number(3, 8))
 
 
 # Using list comprehension

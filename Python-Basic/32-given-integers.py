@@ -1,5 +1,6 @@
 """
-Write a Python program to sum two given integers. However, if the sum is between 15 and 20 it will return 20.
+Write a Python program to sum two given integers.
+However, if the sum is between 15 and 20 it will return 20.
 """
 
 a = 7
@@ -11,6 +12,7 @@ if sum > 15 and sum < 20:
     print(sum)
 else:
     print("No")
+
 
 def sum_number(num1, num2):
     sum = num1 + num2

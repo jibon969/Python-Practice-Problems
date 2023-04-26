@@ -1,5 +1,6 @@
 """
- Write a Python program to convert the distance (in feet) to inches, yards, and miles.
+ Write a Python program to convert the
+ distance (in feet) to inches, yards,and miles.
     1 foot = 12 inches
     1 yard = 3 feet = 36 inches
     1 mile = 1,760 yards

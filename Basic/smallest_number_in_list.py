@@ -1,3 +1,8 @@
+"""
+How to find smaller number in list
+"""
+
+
 def find_smallest_num(lst):
     x = min(lst)
     return x

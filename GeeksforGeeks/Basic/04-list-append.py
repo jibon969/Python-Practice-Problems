@@ -1,5 +1,5 @@
 """
-How to add empty list value
+How to add empty list value in python
 """
 a = []
 # print("List ", a)

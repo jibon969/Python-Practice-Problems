@@ -1,5 +1,6 @@
 """
-Write a Python program that computes the greatest common divisor (GCD) of two positive integers.
+Write a Python program that computes the greatest common 
+divisor (GCD) of two positive integers.
 divisor :
 6 = 1, 2, 3
 8 = 1, 2, 4

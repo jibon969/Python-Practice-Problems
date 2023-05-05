@@ -25,3 +25,16 @@ et = time.time()
 # get the execution time
 elapsed_time = et - st
 print('Execution time:', elapsed_time, 'seconds')
+
+# or
+
+import datetime
+# print(datetime.datetime.now())
+
+start_time = datetime.datetime.now()
+for i in range(1, 100):
+    print(i)
+end_time = datetime.datetime.now()
+
+result = end_time - start_time
+print(result)

@@ -11,14 +11,11 @@ List : ['3', ' 5', ' 7', ' 23']
 Tuple : ('3', ' 5', ' 7', ' 23')
 """
 
-values = input("Input some comma-separated numbers: ")
+my_list = input("Enter your number : ")
+new_list = my_list.split(",")
 
-list = values.split(",")
+convert_tuple = tuple(new_list)
+convert_list = list(new_list)
 
-tuple = tuple(list)
-
-# Print the list
-print('List : ', list)
-
-# Print the tuple
-print('Tuple : ', tuple)
+print(convert_tuple)
+print(convert_list)

@@ -30,3 +30,15 @@ if num1 == num2 or num2 == num3:
 else:
     print(total_sun)
 
+
+# Use Function ===================================
+def calculate_given_number(x, y, z):
+    
+    if x == y or y == z:
+        result = (x+y+z) * 3
+        return result
+    else:
+        return x + y + z
+
+result = calculate_given_number(3,3,3)
+print(result)
